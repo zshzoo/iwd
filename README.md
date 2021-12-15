@@ -1,3 +1,4 @@
 # iwd
 
-In a similar vein as $PWD, this Zsh plugin stores your initial working directory in `$IWD`
+> Similar in concept to `$PWD`, this Zsh plugin saves your initial working directory in `$IWD`
+for easy returns to the starting point of your session.
