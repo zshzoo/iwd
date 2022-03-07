@@ -21,7 +21,7 @@ for easy returns to the starting point of your session.
 
 To install using a Zsh plugin manager, add the following to your .zshrc
 
-- [pz]: `pz source zshzoo/iwd`
+- [antidote]: `antidote bundle zshzoo/iwd`
 - [zcomet]: `zcomet load zshzoo/iwd`
 - [zgenom]: `zgenom load zshzoo/iwd`
 - [znap]: `znap source zshzoo/iwd`
@@ -84,7 +84,7 @@ zstyle ':prezto:load' pmodule \
 [ohmyzsh]: https://github.com/ohmyzsh/ohmyzsh
 [prezto]: https://github.com/sorin-ionescu/prezto
 [zshzoo]: https://github.com/zshzoo/zshzoo
-[pz]: https://github.com/mattmc3/pz
+[antidote]: https://github.com/mattmc3/antidote
 [zcomet]: https://github.com/agkozak/zcomet
 [zgenom]: https://github.com/jandamm/zgenom
 [znap]: https://github.com/marlonrichert/zsh-snap
