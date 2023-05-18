@@ -5,15 +5,13 @@
 [![works with prezto](https://img.shields.io/badge/works%20with-%E2%9D%AF%E2%9D%AF%E2%9D%AF%20prezto-red)](#install-for-prezto)
 [![works with ohmyzsh](https://img.shields.io/badge/works%20with-%20%E2%9E%9C%20oh--my--zsh-C2D33F)](#install-for-oh-my-zsh)
 
-> Similar in concept to `$PWD`, this Zsh plugin saves your initial working directory in `$IWD`
-for easy returns to the starting point of your session.
+> Similar in concept to `$PWD`, this Zsh plugin saves your initial working directory in `$IWD` for easy returns to the starting point of your session.
 
 ## Description
 
 | command | description                |
 | ------- | -------------------------- |
-| `iwd`   | Show the value of `$IWD`   |
-| `cdiwd` | Change directory to `$IWD` |
+| `iwd`   | Change directory to `$IWD` |
 
 ## Installation
 
