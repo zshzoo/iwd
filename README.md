@@ -63,11 +63,9 @@ To install with [Prezto][prezto], first clone the repo from an interactive Zsh s
 
 ```zsh
 # make sure your $ZPREZTODIR is set
-ZPREZTODIR=${ZPREZTODIR:-~/.zprezto}
+: ${ZPREZTODIR:=${ZDOTDIR:-$HOME}/.zprezto}
 # clone the repo to a prezto contrib dir
-git clone https://github.com/zshzoo/iwd $ZPREZTODIR/contrib/iwd/external
-# set up the contrib
-echo "source \${0:A:h}/external/iwd.plugin.zsh" > $ZPREZTODIR/contrib/iwd/init.zsh
+git clone https://github.com/zshzoo/iwd $ZPREZTODIR/contrib/iwd
 ```
 
 Then, add the plugin to your Prezto plugins list in .zpreztorc
